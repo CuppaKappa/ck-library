@@ -1,6 +1,6 @@
 import React from 'react';
 
-var styles = {"test":"_styles-module__test__3ybTi"};
+var styles = {"test":"_3ybTi"};
 
 function createCommonjsModule(fn, module) {
 	return module = { exports: {} }, fn(module, module.exports), module.exports;
@@ -1079,29 +1079,29 @@ if (process.env.NODE_ENV !== 'production') {
 }
 });
 
-var styles$1 = {"greeter":"_greeter-module__greeter__1HoBM","greeter__title":"_greeter-module__greeter__title__296_q","announcement":"_greeter-module__announcement__1Ms4W"};
+var styles$1 = {"greeter":"_1HoBM","greeter__title":"_296_q","announcement":"_1Ms4W"};
 
-const GreeterComponent = ({
-  text: _text = "faux text"
-}) => {
+var GreeterComponent = function GreeterComponent(_ref) {
+  var _ref$text = _ref.text,
+      text = _ref$text === void 0 ? "faux text" : _ref$text;
   return /*#__PURE__*/React.createElement("div", {
     className: styles$1.greeter
   }, /*#__PURE__*/React.createElement("div", {
     className: [styles$1.greeter__title, styles$1.announcement].join(' ')
   }, "Greeter Title: ", /*#__PURE__*/React.createElement("span", {
     className: "text-yellow-600"
-  }, _text)));
+  }, text)));
 };
 GreeterComponent.propTypes = {
   text: propTypes.string
 };
 
-const ExampleComponent = ({
-  text: _text = "faux text"
-}) => {
+var ExampleComponent = function ExampleComponent(_ref) {
+  var _ref$text = _ref.text,
+      text = _ref$text === void 0 ? "faux text" : _ref$text;
   return /*#__PURE__*/React.createElement("div", {
     className: styles.test
-  }, "Example Component: ", _text);
+  }, "Example Component: ", text);
 };
 
 export { ExampleComponent, GreeterComponent };

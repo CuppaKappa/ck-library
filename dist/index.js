@@ -2,7 +2,7 @@ function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'defau
 
 var React = _interopDefault(require('react'));
 
-var styles = {"test":"_styles-module__test__3ybTi"};
+var styles = {"test":"_3ybTi"};
 
 function createCommonjsModule(fn, module) {
 	return module = { exports: {} }, fn(module, module.exports), module.exports;
@@ -1081,7 +1081,7 @@ if (process.env.NODE_ENV !== 'production') {
 }
 });
 
-var styles$1 = {"greeter":"_greeter-module__greeter__1HoBM","greeter__title":"_greeter-module__greeter__title__296_q","announcement":"_greeter-module__announcement__1Ms4W"};
+var styles$1 = {"greeter":"_1HoBM","greeter__title":"_296_q","announcement":"_1Ms4W"};
 
 var GreeterComponent = function GreeterComponent(_ref) {
   var _ref$text = _ref.text,
