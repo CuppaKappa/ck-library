@@ -1,8 +1,6 @@
-import React from 'react';
-import styles from './styles.module.css';
+import './tailwind.css';
 
-export const ExampleComponent = ({ text = "faux text" }) => {
-  return <div className={styles.test}>Example Component: {text}</div>;
-};
+export * from './components/Button';
+export * from './components/Form';
 
-export { GreeterComponent } from './greeter';
+export const tailwindConfig = require('../tailwind.config.js');

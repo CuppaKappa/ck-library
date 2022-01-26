@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonComponent variants renders variant alt 1`] = `
+<button
+  className="button alt"
+  disabled={false}
+  type="button"
+/>
+`;
+
+exports[`ButtonComponent variants renders variant jumbo 1`] = `
+<button
+  className="button jumbo"
+  disabled={false}
+  type="button"
+/>
+`;
+
+exports[`ButtonComponent variants renders variant large 1`] = `
+<button
+  className="button large"
+  disabled={false}
+  type="button"
+/>
+`;
+
+exports[`ButtonComponent variants renders variant linearBlack 1`] = `
+<button
+  className="button linearBlack"
+  disabled={false}
+  type="button"
+/>
+`;
+
+exports[`ButtonComponent variants renders variant linearWhite 1`] = `
+<button
+  className="button linearWhite"
+  disabled={false}
+  type="button"
+/>
+`;
