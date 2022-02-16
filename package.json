@@ -74,6 +74,6 @@
     "dist"
   ],
   "dependencies": {
-    "react-hook-form": "^7.25.0"
+    "react-hook-form": "^7.25.1"
   }
 }
